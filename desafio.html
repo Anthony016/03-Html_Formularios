@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea HTML_Formularios de Anthony Jeanpier Manrique Jimenez</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>RadioButtons</legend>
+            <input type="radio" name="idioma" value="idiomaingles"> Ingles        
+            <input type="radio" name="idioma" value="idiomaaleman"> Aleman       
+            <input type="radio" name="idioma" value="idiomafrances"> Frances       
+        </fieldset>
+        <fieldset>
+            <legend>Lista Desplegable</legend>
+            <select name="conector">
+                <option value="usb">Usb</option>
+                <option value="paralelo">Paralelo</option>
+                <option value="ps2">Ps2</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Cuadros de texto</legend>
+            Nombre <input type="text" name="nombre">
+            Apellidos <input type="text" name="apellidos">
+        </fieldset>
+        <fieldset>
+            <legend>Lista Desplegable Multiple</legend>
+            <select name="sexo" multiple>
+                <optgroup label="hombre">
+                    <option value="hombre">hombre</option>
+                </optgroup>
+                <optgroup label="mujer">
+                    <option value="mujer">mujer</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Checkboxes</legend>
+            <input type="checkbox" name="sexo" value="sexomujer" > Mujer
+            <input type="checkbox" name="sexo" value="sexohombre"> Hombre
+        </fieldset>
+        <fieldset>
+            <legend>Fecha</legend>
+            <input type="date">
+        </fieldset>
+
+    </form>
+</body>
+</html>
